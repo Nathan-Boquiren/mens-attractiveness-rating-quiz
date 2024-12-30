@@ -1,5 +1,4 @@
 /* === Global Stuff === */
-
 * {
     margin: 0;
     padding: 0;
@@ -28,22 +27,11 @@ body {
 #starting-screen {
     height: 100%;
     width: 100%;
-    background-image: url(man-in-suit-wide.png);
+    background-image: url(bg-images/man-in-suit-wide.png);
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-@media (max-width: 500px) {
-    #starting-screen {
-        width: 100%;
-        background-image: url(man-in-suit-portrait.png);
-        background-position: center top;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
 }
 
 #starting-screen-content {
@@ -149,9 +137,17 @@ body {
     border-radius: 20px;
 }
 
+.question-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
 #question {
-    font-size: 1.5rem;
-    margin-bottom: 50px;
+    font-family: var(--serif-font);
+    font-size: 1.6rem;
+    font-weight: 500;
 }
 
 #choices-container {
@@ -237,7 +233,7 @@ body {
     display: none;
     height: 100%;
     width: 100%;
-    background-image: url(end-screen-bg.png);
+    background-image: url(bg-images/end-screen-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -258,14 +254,8 @@ body {
 #final-rating-header {
     font-size: 3rem;
     text-align: center;
+    animation: fadeIn 0.5s ease forwards;
 }
-
-@media (max-width: 425px) {
-    #final-rating-header {
-        font-size: 2.5rem;
-    }
-}
-
 
 .final-score-container {
     background-color: var(--lighter-bg-color);
@@ -275,6 +265,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: fadeIn 1s ease forwards;
 }
 
 #final-rating {
@@ -287,9 +278,23 @@ body {
     font-size: 1.5rem;
     text-align: center;
     line-height: 2;
+    animation: fadeIn 1.5s ease forwards;
 }
 
 @media (max-width: 425px) {
+    #starting-screen {
+        width: 100%;
+        background-image: url(bg-images/man-in-suit-portrait.png);
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    #final-rating-header {
+        font-size: 2.5rem;
+    }
+
     #feedback {
         font-size: 1.2rem;
         line-height: 1.5;
