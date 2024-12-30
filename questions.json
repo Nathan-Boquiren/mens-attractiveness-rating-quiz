@@ -1,0 +1,414 @@
+[
+  {
+    "question": "How tall are you?",
+    "options": [
+      { "answer": "5'7\" - 5'10\"", "score": 7 },
+      { "answer": "5'11\" - 6'1\"", "score": 8 },
+      { "answer": "Under 5'7\"", "score": 2 },
+      { "answer": "6'2\" and above", "score": 9 }
+    ]
+  },
+  {
+    "question": "Which best describes your hair?",
+    "options": [
+      { "answer": "Thick and luscious", "score": 8 },
+      { "answer": "Bald or thin", "score": 3 },
+      { "answer": "Styled to perfection", "score": 10 },
+      { "answer": "Average and manageable", "score": 5 }
+    ]
+  },
+  {
+    "question": "Which best matches your build?",
+    "options": [
+      { "answer": "Muscular and toned", "score": 10 },
+      { "answer": "Lean but athletic", "score": 8 },
+      { "answer": "Underweight or very skinny", "score": 2 },
+      { "answer": "Average/slim build", "score": 5 }
+    ]
+  },
+  {
+    "question": "How would you rate your jawline?",
+    "options": [
+      { "answer": "Slightly visible", "score": 5 },
+      { "answer": "Sharp and defined", "score": 8 },
+      { "answer": "Not defined at all", "score": 2 },
+      { "answer": "Greek god level sculpted", "score": 10 }
+    ]
+  },
+  {
+    "question": "How's your smile?",
+    "options": [
+      { "answer": "Bright and straight", "score": 8 },
+      { "answer": "Noticeable dental issues", "score": 2 },
+      { "answer": "Crooked or average", "score": 5 },
+      { "answer": "Hollywood smile", "score": 10 }
+    ]
+  },
+  {
+    "question": "Do you wear glasses?",
+    "options": [
+      { "answer": "No glasses, but I rock contacts", "score": 7 },
+      { "answer": "Yes, I'm a nerd", "score": 2 },
+      { "answer": "No glasses or contacts, vision 20/20", "score": 9 },
+      { "answer": "Yes, but stylish ones, like blue light", "score": 6 }
+    ]
+  },
+  {
+    "question": "What is your race?",
+    "options": [
+      { "answer": "Black", "score": 6 },
+      { "answer": "White", "score": 7 },
+      { "answer": "Hispanic, Filipino, or Mixed", "score": 10 },
+      { "answer": "Asian (but not Filipino)", "score": 5 }
+    ]
+  },
+  {
+    "question": "How’s your grooming game?",
+    "options": [
+      { "answer": "Rarely shower or groom", "score": 2 },
+      { "answer": "Spend over 30 minutes in the bathroom every morning", "score": 10 },
+      { "answer": "Daily showers", "score": 8 },
+      { "answer": "Bi-weekly showers", "score": 5 }
+    ]
+  },
+  {
+    "question": "What does your voice/accent sound like?",
+    "options": [
+      { "answer": "Hard to understand", "score": 3 },
+      { "answer": "Melts hearts", "score": 10 },
+      { "answer": "Smooth and charismatic", "score": 8 },
+      { "answer": "Average, nothing memorable", "score": 5 }
+    ]
+  },
+  {
+    "question": "What’s your facial hair situation?",
+    "options": [
+      { "answer": "Stylish and maintained", "score": 9 },
+      { "answer": "Patchy or uneven", "score": 2 },
+      { "answer": "None at all", "score": 7 },
+      { "answer": "Basic beard or stubble", "score": 6 }
+    ]
+  },
+  {
+    "question": "How’s your style?",
+    "options": [
+      { "answer": "Trendsetter or fashion icon", "score": 9 },
+      { "answer": "Stylish and coordinated", "score": 8 },
+      { "answer": "Casual but decent", "score": 5 },
+      { "answer": "I just throw on whatever’s clean", "score": 3 }
+    ]
+  },
+
+
+
+  
+  {
+    "question": "How funny are you?",
+    "options": [
+      { "answer": "Occasionally funny, but I miss sometimes", "score": 5 },
+      { "answer": "I rely on dad jokes and puns", "score": 3 },
+      { "answer": "Certified comedian, people quote me", "score": 10 },
+      { "answer": "Quick wit, always gets a laugh", "score": 8 }
+    ]
+  },
+  {
+    "question": "How kind/sweet/caring are you?",
+    "options": [
+      { "answer": "I radiate golden retriever energy", "score": 8 },
+      { "answer": "I fake nice to avoid problems", "score": 3 },
+      { "answer": "People tell me I'm thoughtful", "score": 7 },
+      { "answer": "I'm kind if I like you", "score": 5 }
+    ]
+  },
+  {
+    "question": "How thoughtful are you?",
+    "options": [
+      { "answer": "I forget birthdays and everything else", "score": 2 },
+      { "answer": "I write down birthdays and stuff", "score": 8 },
+      { "answer": "I remember important things sometimes", "score": 5 },
+      { "answer": "I’m the one who plans surprise parties", "score": 9 }
+    ]
+  },
+  {
+    "question": "How talkative are you?",
+    "options": [
+      { "answer": "I talk non-stop, life of the party", "score": 4 },
+      { "answer": "Silent and mysterious", "score": 2 },
+      { "answer": "I talk when I feel comfortable", "score": 6 },
+      { "answer": "Chatty but not annoying", "score": 7 }
+    ]
+  },
+  {
+    "question": "How big is your ego?",
+    "options": [
+      { "answer": "I know my worth but don’t flaunt it", "score": 7 },
+      { "answer": "I’m way too humble, honestly", "score": 3 },
+      { "answer": "I’m basically a living legend", "score": 2 },
+      { "answer": "I have confidence in spades", "score": 6 }
+    ]
+  },
+  {
+    "question": "How popular are you?",
+    "options": [
+      { "answer": "I have a small but close friend group", "score": 7 },
+      { "answer": "I’m a local celebrity", "score": 6 },
+      { "answer": "Even my mom forgets about me sometimes", "score": 2 },
+      { "answer": "People know me, and I’m liked", "score": 9 }
+    ]
+  },
+  {
+    "question": "Do you enjoy partying?",
+    "options": [
+      { "answer": "Yes, I’m the life of the party", "score": 10 },
+      { "answer": "Sometimes, when I feel like it", "score": 7 },
+      { "answer": "Not really, I prefer quiet nights", "score": 5 },
+      { "answer": "No, I hate parties", "score": 3 }
+    ]
+  },
+  {
+    "question": "Do you have brain rot?",
+    "options": [
+      { "answer": "Brain is pristine, social media-free", "score": 9 },
+      { "answer": "I love memes, but I touch grass too", "score": 6 },
+      { "answer": "Skibidi ohio sigma giggachad", "score": 1 },
+      { "answer": "Balanced: social media + real life", "score": 7 }
+    ]
+  },
+  {
+    "question": "Rizz?",
+    "options": [
+      { "answer": "Rizz", "score": 8 },
+      { "answer": "No rizz", "score": 4 },
+      { "answer": "A little rizz", "score": 6 },
+      { "answer": "Unspoken rizz", "score": 9 }
+    ]
+  },
+
+
+
+
+  {
+    "question": "Do you have a job?",
+    "options": [
+      { "answer": "Yes, and I work full-time", "score": 8 },
+      { "answer": "Yes, part-time hustler", "score": 6 },
+      { "answer": "No, I’m job hunting", "score": 4 },
+      { "answer": "No, I’m chilling", "score": 2 }
+    ]
+  },
+  {
+    "question": "What kind of job do you have?",
+    "options": [
+      { "answer": "Corporate or professional career", "score": 10 },
+      { "answer": "Retail, food service, or customer-facing", "score": 6 },
+      { "answer": "Creative or freelancing", "score": 8 },
+      { "answer": "No job right now", "score": 2 }
+    ]
+  },
+  {
+    "question": "How much money do you make annually?",
+    "options": [
+      { "answer": "Over $100K", "score": 10 },
+      { "answer": "$50K - $99K", "score": 8 },
+      { "answer": "Less than $50K", "score": 6 },
+      { "answer": "I'm broke or don't make money", "score": 2 }
+    ]
+  },
+  {
+    "question": "Are you currently in school?",
+    "options": [
+      { "answer": "Yes, college/university student", "score": 8 },
+      { "answer": "No, I’m done with school", "score": 6 },
+      { "answer": "Still in high school", "score": 4 },
+      { "answer": "No, I dropped out", "score": 2 }
+    ]
+  },
+  {
+    "question": "What’s your field of study or focus in school?",
+    "options": [
+      { "answer": "STEM (science, tech, engineering, math)", "score": 10 },
+      { "answer": "Arts or humanities", "score": 8 },
+      { "answer": "Business or social sciences", "score": 7 },
+      { "answer": "Undecided or not applicable", "score": 4 }
+    ]
+  },
+  {
+    "question": "How are your grades or performance in school?",
+    "options": [
+      { "answer": "Straight A's or top of the class", "score": 10 },
+      { "answer": "Mostly A's and B's", "score": 8 },
+      { "answer": "Average C's and D's", "score": 4 },
+      { "answer": "I’m just passing, and that's enough", "score": 2 }
+    ]
+  },
+  {
+    "question": "What’s your highest level of education completed?",
+    "options": [
+      { "answer": "Graduate degree (Master's, PhD)", "score": 10 },
+      { "answer": "Bachelor's degree", "score": 8 },
+      { "answer": "High school diploma or GED", "score": 4 },
+      { "answer": "Middle school or below", "score": 2 }
+    ]
+  },
+  {
+    "question": "How would you describe your work ethic?",
+    "options": [
+      { "answer": "Workaholic, always grinding", "score": 10 },
+      { "answer": "Balanced: I work hard, but I rest too", "score": 8 },
+      { "answer": "I work enough to get by", "score": 6 },
+      { "answer": "Lazy but surviving", "score": 2 }
+    ]
+  },
+  {
+    "question": "How do you feel about your current job or studies?",
+    "options": [
+      { "answer": "I love it; it’s my passion", "score": 10 },
+      { "answer": "It’s fine, gets the job done", "score": 7 },
+      { "answer": "Not a fan, but I’m sticking with it", "score": 5 },
+      { "answer": "I absolutely hate it", "score": 2 }
+    ]
+  },
+  {
+    "question": "Do you have side hustles or other ways to earn money?",
+    "options": [
+      { "answer": "Yes, I’m all about multiple income streams", "score": 10 },
+      { "answer": "No, but I’ve considered it", "score": 6 },
+      { "answer": "I tried, but it didn’t work out", "score": 4 },
+      { "answer": "No, I’m fine with just one source of income", "score": 2 }
+    ]
+  },
+
+
+
+
+  {
+    "question": "Do you work out or stay physically active?",
+    "options": [
+      { "answer": "I hit the gym or train regularly", "score": 10 },
+      { "answer": "I stay active occasionally", "score": 6 },
+      { "answer": "Does walking to the fridge count?", "score": 4 },
+      { "answer": "Nope, I avoid exercise like the plague", "score": 2 }
+    ]
+  },
+  {
+    "question": "What’s your sleep schedule like?",
+    "options": [
+      { "answer": "Consistent 8 hours like a king", "score": 10 },
+      { "answer": "I get enough to survive", "score": 7 },
+      { "answer": "I sleep like 4 hours max", "score": 4 },
+      { "answer": "What’s sleep? Never heard of it", "score": 2 }
+    ]
+  },
+  {
+    "question": "Are you musically inclined?",
+    "options": [
+      { "answer": "Yes, I play an instrument or sing/write", "score": 10 },
+      { "answer": "I can dance pretty well", "score": 8 },
+      { "answer": "I hum in the shower sometimes", "score": 5 },
+      { "answer": "Nope, I have no rhythm at all", "score": 2 }
+    ]
+  },
+  {
+    "question": "Do you like nerdy stuff?",
+    "options": [
+      { "answer": "Yes, I’m proud to be a nerd", "score": 8 },
+      { "answer": "I enjoy some of it casually", "score": 6 },
+      { "answer": "Not really, but I know a little", "score": 4 },
+      { "answer": "No, that stuff isn’t for me", "score": 2 }
+    ]
+  },
+  {
+    "question": "Are you athletic or involved in sports?",
+    "options": [
+      { "answer": "Yes, I’m an athlete or play sports often", "score": 10 },
+      { "answer": "I’m decent at sports", "score": 7 },
+      { "answer": "I’m more of a casual spectator", "score": 5 },
+      { "answer": "Athletic? Me? Never.", "score": 2 }
+    ]
+  },
+  {
+    "question": "Do you enjoy farming or gardening?",
+    "options": [
+      { "answer": "Yes, I farm or garden regularly", "score": 8 },
+      { "answer": "I think it’s interesting but don’t do it", "score": 5 },
+      { "answer": "I’ve tried it, but it’s not my thing", "score": 4 },
+      { "answer": "Absolutely not, dirt isn’t my style", "score": 2 }
+    ]
+  },
+  {
+    "question": "Do you play video games?",
+    "options": [
+      { "answer": "Yes, I’m a hardcore gamer", "score": 8 },
+      { "answer": "I play casually or occasionally", "score": 6 },
+      { "answer": "Rarely, I’m not much of a gamer", "score": 4 },
+      { "answer": "Nope, I don’t touch video games", "score": 2 }
+    ]
+  },
+  {
+    "question": "Do you like to cook or bake?",
+    "options": [
+      { "answer": "I’m a master chef in the making", "score": 10 },
+      { "answer": "I can whip up a decent meal", "score": 8 },
+      { "answer": "I make basic food to survive", "score": 5 },
+      { "answer": "Microwave meals and takeout are my life", "score": 2 }
+    ]
+  },
+
+
+
+
+  {
+    "question": "What’s your political party or stance?",
+    "options": [
+      { "answer": "Left, Progressive, Demobrat", "score": 2 },
+      { "answer": "Right, Conservative, Republican", "score": 9 },
+      { "answer": "I’m politically neutral or independent", "score": 5 },
+      { "answer": "Politics? Nah, not my thing", "score": 7 }
+    ]
+  },
+  {
+    "question": "Do you go to church or practice religion?",
+    "options": [
+      { "answer": "Yes, I’m very devout", "score": 10 },
+      { "answer": "I go sometimes, but not regularly", "score": 7 },
+      { "answer": "I’m spiritual but not religious", "score": 6 },
+      { "answer": "Nope, not at all", "score": 1 }
+    ]
+  },
+  {
+    "question": "Do you drink alcohol?",
+    "options": [
+      { "answer": "Yes, socially or occasionally", "score": 2 },
+      { "answer": "Yes, regularly", "score": 1 },
+      { "answer": "Rarely, almost never", "score": 5 },
+      { "answer": "Nope, I don’t drink", "score": 10 }
+    ]
+  },
+  {
+    "question": "Do you smoke or vape?",
+    "options": [
+      { "answer": "Yes, regularly", "score": 1 },
+      { "answer": "Occasionally, but not often", "score": 2 },
+      { "answer": "No, I used to but quit", "score": 4 },
+      { "answer": "Never, not interested", "score": 10 }
+    ]
+  },
+  {
+    "question": "Do you do drugs?",
+    "options": [
+      { "answer": "Yes, casually", "score": 1 },
+      { "answer": "Yes, but I’m trying to stop", "score": 1 },
+      { "answer": "No, never have", "score": 9 },
+      { "answer": "I’m straight-edge for life", "score": 10 }
+    ]
+  },
+  {
+    "question": "Pizza?",
+    "options": [
+      { "answer": "Yes, always pizza", "score": 10 },
+      { "answer": "Pizza is alright", "score": 7 },
+      { "answer": "Not a fan of pizza", "score": 3 },
+      { "answer": "Absolutely not, pizza is overrated", "score": 1 }
+    ]
+  }
+]
