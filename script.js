@@ -56,7 +56,6 @@ function getQuestionAmount() {
     })
     .then((data) => {
       questionAmount = data.length;
-      cl(questionAmount);
     })
     .catch((error) => {
       console.error("Error fetching the JSON file:", error);
@@ -113,20 +112,18 @@ function getQuestion() {
 // === Function to calculate score ===
 
 function calculateScore() {
-  if (scoreArray.length === 0) return cl(`The score is 0`);
+  if (scoreArray.length === 0) return score;
   const sum = scoreArray.reduce(
     (accumulator, currentValue) => accumulator + currentValue,
     0
   );
   score = (sum / scoreArray.length).toFixed(1);
-  return cl(`The score is ${score}`);
+  return score;
 }
 
 // === Function to show end results page ===
 
 function showResultsPage() {
-  cl(score);
-
   mainApp.style.display = "none";
   endResultsScreen.style.display = "block";
   finalScoreContainer.innerHTML = score;

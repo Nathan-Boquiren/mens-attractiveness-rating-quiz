@@ -20,6 +20,28 @@ body {
     flex-direction: column;
     height: 100vh;
     background-color: var(--bg-color);
+    position: relative;
+}
+
+header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+header h1#title {
+    font-family: 'Cinzel', 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+
+header h3#sub-header {
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
 /* === Starting Screen === */
@@ -135,6 +157,7 @@ body {
     align-items: center;
     text-align: center;
     border-radius: 20px;
+    animation: fadeIn 0.5s ease forwards;
 }
 
 .question-container {
@@ -148,6 +171,7 @@ body {
     font-family: var(--serif-font);
     font-size: 1.6rem;
     font-weight: 500;
+    animation: fadeIn 1s ease forwards;
 }
 
 #choices-container {
@@ -180,31 +204,40 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    outline: 3px solid var(--lighter-bg-color);
+    outline: 3px solid transparent;
 }
 
-@media (max-width: 500px) {
-    .choice-btn {
-        font-size: 1rem;
-    }
+#choice-1-box {
+    animation: fadeIn 1.3s ease forwards;
+}
+
+#choice-2-box {
+    animation: fadeIn 1.6s ease forwards;
+}
+
+#choice-3-box {
+    animation: fadeIn 1.9s ease forwards;
+}
+
+#choice-4-box {
+    animation: fadeIn 2.2s ease forwards;
 }
 
 .choice-btn:hover {
-    background-color: var(--bg-color);
+    background-color: #425158;
+    outline: 3px solid #d5d5d5;
 }
 
-.choice-btn:active {
-    transform: scale(1.05);
-}
 
 .radio-btn:checked+.choice-btn {
-    background-color: var(--lighter-bg-color);
+    outline: 3px solid #d5d5d5;
+    background-color: #425158;
     font-weight: 600;
-    outline: 3px solid var(--bg-color);
 }
 
 #submit-btn {
     font-size: 1.3rem;
+    font-weight: 500;
     background-color: var(--lighter-bg-color);
     border: none;
     padding: 12px 20px;
@@ -212,7 +245,6 @@ body {
     cursor: pointer;
     margin-top: 20px;
     transition: all 0.15s ease;
-
 }
 
 #submit-btn:hover {
@@ -281,6 +313,12 @@ body {
     animation: fadeIn 1.5s ease forwards;
 }
 
+@media (max-width: 500px) {
+    .choice-btn {
+        font-size: 1rem;
+    }
+}
+
 @media (max-width: 425px) {
     #starting-screen {
         width: 100%;
@@ -291,6 +329,17 @@ body {
         background-attachment: fixed;
     }
 
+    #submit-btn {
+        font-size: 1rem;
+        border: none;
+        padding: 8px 15px;
+        margin-top: 8px;
+    }
+
+    #submit-btn:active {
+        background-color: var(--lighter-bg-color);
+    }
+
     #final-rating-header {
         font-size: 2.5rem;
     }
@@ -299,4 +348,6 @@ body {
         font-size: 1.2rem;
         line-height: 1.5;
     }
+
+
 }
