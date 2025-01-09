@@ -307,9 +307,6 @@
     ]
   },
 
-
-
-
   {
     "question": "Do you work out or stay physically active?",
     "options": [
@@ -320,9 +317,18 @@
     ]
   },
   {
+    "question": "What's your skin care routine like?",
+    "options": [
+      { "answer": "What's a skin care routine?", "score": 3 },
+      { "answer": "Wash, Cleanse, Moisturize", "score": 10 },
+      { "answer": "I wash my face...", "score": 6 },
+      { "answer": "I use whatever's in the shower", "score": 3 }
+    ]
+  },
+  {
     "question": "What’s your sleep schedule like?",
     "options": [
-      { "answer": "Consistent 8 hours like a king", "score": 10 },
+      { "answer": "Consistent 7-9 hours", "score": 10 },
       { "answer": "I get enough to survive", "score": 7 },
       { "answer": "I sleep like 4 hours max", "score": 4 },
       { "answer": "What’s sleep? Never heard of it", "score": 2 }
